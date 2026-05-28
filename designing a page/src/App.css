@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ .container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.leftsidebar{
+background-color: white;
+flex: 0.9;
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+.foodicon img{
+    height: 50px;
+    width: 130px;
+    border-radius: 50%;
+}
+.left-top{
+    flex:0.7;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    }
+.b{
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+.left-down{
+    flex:0.3;
+    
+}
+.foodimage img{
+   height: 120px;
+   width: 240px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.food-text  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size:larger;
+}
+.food-text h5{
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: small;
+}
+
+.main-layout{
+background-color: white;
+flex: 5;
+display: flex;
+flex-direction: column;
+}
+.top-header{
+flex:0.5;
+display: flex;
+padding: 10px;
+justify-content: space-evenly;
+
+}
+.search{
+    flex:auto;
+    
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search input{
+flex:0.5;
+padding: 8px;
+border-radius: 6px;
+}
+
+.search button{
+    padding: 8px;
+    background-color: orangered;
+    border-radius: 6px;
+    color: white;
+}
+.search img{
+    height: 12px;
+    width: 12px;
+    background: transparent;
+    background-color: orangered;
+    border-radius: 6px;
+}
+.profile{
+    flex:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.notification img{
+    height: 30px;
+    width: 30px;
+}
+.singnin{
+flex:0.2;
+}
+
+.singnin select{
+background-color: rgb(214, 218, 218);
+ padding: 8px;
+ border-radius: 6px;
+}
+.main-body{
+flex: 4.5;
+display: flex;
+}
+.main-left{
+flex: 3.4;
+display: flex;
+flex-direction: column;
+}
+.explore-top{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(237, 234, 234); 
+    
+}
+.explore-top a{
+    color:black;
+    font-family: sans-serif;
+    font-weight:600;
+    text-decoration: none;
+  
+}
+.above{
+display: flex;
+flex:0.5;
+background-color:rgb(237, 234, 234);
+justify-content: space-evenly;
+padding: 10px;
+flex-direction: row;
+}
+
+   .E {
+  display: flex;
+  align-items: center;      
+  justify-content: center;  
+  gap: 8px;                 
+  border: 2px solid white;
+  margin: 10px;
+  padding: 5px 10px;      
+  border-radius: 6px;      
+  background-color: white;
+}
+    
+    
+    
+
+.above img{
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+
+}
+.above span {
+font-family: sans-serif;
+font-weight: normal;
+font-size: small;
+}
+.bottom{
+    display: flex;
+     flex:0.5;
+     background-color:rgb(237, 234, 234);
+     justify-content: space-evenly;
+     padding: 10px;
+}
+.bottom img{
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+
+}
+.bottom span{
+font-family: sans-serif;
+font-weight: normal;
+font-size: small; 
+}
+.popular-down{
+    flex: 2.4;
+    background-color: rgb(237, 234, 234);;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.popular-down a{
+     color:black;
+    font-family: sans-serif;
+    font-weight:600;
+    text-decoration: none;
+    
+}
+.up{
+flex: 1.2;
+background-color: rgb(237, 234, 234);;
+display: flex;
+gap: 10px;
+padding: 10px;
+
+}
+.down{
+flex: 1.2;
+background-color: rgb(237, 234, 234);
+display: flex;
+gap:10px;
+padding: 10px;
+}
+.top-1{
+    background-color: white;
+    flex: 0.4;
+    border: 2px solid white;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+     border-radius: 10px;
+  
+}
+.top-1 img{
+    height: 125px;
+    width: 220px;
+    border-radius: 6px;
+}
+.top-2{
+    background-color: white;
+    flex: 0.4;
+    border: 2px solid white;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+     border-radius: 10px;
+}
+.top-2 img{
+    height: 125px;
+    width: 220px;
+     border-radius: 6px;
+}
+.top-3{
+   background-color:white;
+    flex: 0.4;
+    border: 2px solid white;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+     border-radius: 10px;
+}
+.top-3 img{
+    height: 125px;
+    width: 220px;
+     border-radius: 6px;
+}
+.main-rightbar{
+    flex: 1.1;
+    background-color: blueviolet;
+}
