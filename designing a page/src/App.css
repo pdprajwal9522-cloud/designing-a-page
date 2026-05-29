@@ -15,6 +15,7 @@ flex: 0.9;
 display: flex;
 flex-direction: column;
 padding: 20px;
+padding-top: 10px;
 }
 .foodicon img{
     height: 50px;
@@ -31,7 +32,14 @@ padding: 20px;
     border: 2px solid gray;
     padding: 10px;
     border-radius: 6px;
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.left-top img{
+    height:25px ;
+    width: 30px;
+    object-fit: cover;
 }
 .left-down{
     flex:0.3;
@@ -118,6 +126,7 @@ background-color: rgb(214, 218, 218);
 .main-body{
 flex: 4.5;
 display: flex;
+background-color: rgb(237, 234, 234);
 }
 .main-left{
 flex: 3.4;
@@ -136,6 +145,7 @@ flex-direction: column;
     font-family: sans-serif;
     font-weight:600;
     text-decoration: none;
+    margin:5px;
   
 }
 .above{
@@ -265,5 +275,97 @@ padding: 10px;
 }
 .main-rightbar{
     flex: 1.1;
-    background-color: blueviolet;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+.main-rightbar a{
+    color:black;
+    font-family: sans-serif;
+    font-weight:600;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.rightup{
+flex: 0.95;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items:flex-start;
+padding: 10px;
+gap: 20px;
+
+
+}
+
+.rightdown{
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+}
+
+
+.a1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-bottom:2px solid gray;
+}
+.a1 img{
+    height: 55px;
+    width: 55px;
+    border-radius: 6px;
+}
+.rightdown img{
+height: 160px;
+width: 170px;
+}
+.all{
+
+     border-style: dotted;
+     border-radius: 10px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    max-width: 195px;
+}
+.payment{
+    flex:0.2;
+    background-color: white;
+    border-bottom: 2px solid gray;
+   
+}
+
+.total-pay{
+    flex:0.4;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.last{
+    flex:0.1;
+    display: flex;
+    flex-direction: column;
+}
+
+.last button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+     max-width: 190px;
+}
+

@@ -17,6 +17,14 @@ import cheese from './assets/cheese-burger.jpg'
 import veg_2 from './assets/veg-2.jpg'
 import been from './assets/Been-Burger.jpg'
 import wild from './assets/wild-salmon -burger.jpg'
+import pay from './assets/payment.jpg'
+import dash from './assets/dash.jpg'
+import fd from './assets/fd.jpg'
+import feed from './assets/feedback.jpg'
+import msg from './assets/msg.jpg'
+import ord from './assets/ord.jpg'
+import paym from './assets/pay.jpg'
+import cust from './assets/cust.jpg'
 function App() {
 
   return (
@@ -27,13 +35,13 @@ function App() {
     <img src={food} alt="food-icon"/>
   </div>
   <div className="left-top">
-  <div className="b">Dashboard</div>
-<div className="b">Foodorder</div>
-<div className="b">Feedback</div>
-<div className="b">Message</div>
-<div className="b">order History</div>
-<div className="b">Payment detail</div>
-<div className="b">customization</div>
+  <div className="b"><span><img src ={dash}/></span>Dashboard</div>
+<div className="b"><span><img src ={fd}/></span>Foodorder</div>
+<div className="b"><span><img src ={feed}/></span>Feedback</div>
+<div className="b"><span><img src ={msg}/></span>Message</div>
+<div className="b"><span><img src ={ord}/></span>order History</div>
+<div className="b"><span><img src ={paym}/></span>Payment detail</div>
+<div className="b"><span><img src ={cust}/></span>customization</div>
 </div>
 <div className="left-down">
 <div className='foodimage'>
@@ -121,7 +129,7 @@ function App() {
               <div className="down">
                 <div className="top-1">
 <div className="b-1"><img src={veg_2}/>
-<p>Vegetable Burger<b>$$25</b> <subcript>$28.30</subcript> </p>
+<p>Vegetable Burger<b>$$25</b> <subscript>$28.30</subscript> </p>
 <button>Wishlist</button>
 <button>Order Now</button>
 </div>
@@ -150,15 +158,52 @@ function App() {
               
               </div>
             </div>
-            <div className="main-rightbar"></div>
-          </div>
-        </div>
+            <div className="main-rightbar">
+              <a href ="#">Invoice</a>
+              <div className="rightup">
+                <div className="a1"><span><img src={veg}/></span>
+                
+                <div className="text-1"><span>Vegetable Burger</span><p> $25</p>
+                </div>
+                </div>
 
+                <div className="a1"><span><img src={veg}/></span>
+                <div className="text-1"><span>Vegetable Burger</span><p> $25</p>
+                </div>
+                </div>
 
+                <div className="a1"><span><img src={veg}/></span>
+                
+                </div>
 
+              </div>
+              <div className="rightdown">
 
-        
-      </div>
+<div className="all">
+
+<div className="payment"><h3>Payment Summary</h3>
+<br></br>
+<span>Sub Total  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; </span> <span>$85</span>
+<br></br>
+<span> Tax &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  </span>  <span>-$6</span>
+</div>
+<div className="total-pay"><h3>Total Payment   &nbsp;  $79</h3>
+<span>Payment Method </span>
+<div className="photo">
+  <img src={pay}/>
+</div>
+</div>
+
+</div>
+<div className="last">
+  <button>Place An Order Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
 
     </>
   )
