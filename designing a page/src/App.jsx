@@ -99,27 +99,35 @@ function App() {
 <div className="up">
                 <div className="top-1">
 <div className="b-1"><img src={veg}/>
-<p>Vegetable Burger<b>$$25</b> <subcript>$28.30</subcript> </p>
+<div className="text-2"><h4>Vegetable Burger</h4>
+<p><span>$25</span> &nbsp; <sub>$26.30</sub></p>
 <button>Wishlist</button>
-<button>Order Now</button>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<button className='order-btn'>Order Now</button>
 </div>
-
+</div>
                 </div>
 
                   <div className="top-2">
 <div className="b-1"><img src={meat}/>
-<p>Vegetable Burger<b>$$25</b> <subcript>$28.30</subcript> </p>
+<div className="text-2"><h4>Meat Burger</h4>
+<p><span>$28</span> &nbsp; <sub>$28.30</sub></p>
 <button>Wishlist</button>
-<button>Order Now</button>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<button className='order-btn'>Order Now</button>
+</div>
 </div>
 
                 </div>
 
                   <div className="top-3">
 <div className="b-1"><img src={cheese}/>
-<p>Vegetable Burger<b>$$25</b> <subcript>$28.30</subcript> </p>
+<div className="text-2"><h4>Cheese Burger</h4>
+<p><span>$32</span> &nbsp; <sub>$36.30</sub></p>
 <button>Wishlist</button>
-<button>Order Now</button>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<button className='order-btn'>Order Now</button>
+</div>
 </div>
 
                 </div>
@@ -129,27 +137,36 @@ function App() {
               <div className="down">
                 <div className="top-1">
 <div className="b-1"><img src={veg_2}/>
-<p>Vegetable Burger<b>$$25</b> <subscript>$28.30</subscript> </p>
+<div className="text-2"><h4>Vegetable Burger</h4>
+<p><span>$30</span> &nbsp; <sub>$32.30</sub></p>
 <button>Wishlist</button>
-<button>Order Now</button>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<button className='order-btn'>Order Now</button>
+</div>
 </div>
 
                 </div>
 
                 <div className="top-1">
 <div className="b-1"><img src={been}/>
-<p>Vegetable Burger<b>$$25</b> <subcript>$28.30</subcript> </p>
+<div className="text-2"><h4>Been Burger</h4>
+<p><span>$15</span> &nbsp; <sub>$16.30</sub></p>
 <button>Wishlist</button>
-<button>Order Now</button>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<button className='order-btn'>Order Now</button>
+</div>
 </div>
 
                 </div>
 
                 <div className="top-1">
 <div className="b-1"><img src={wild}/>
-<p>Vegetable Burger<b>$$25</b> <subcript>$28.30</subcript> </p>
+<div className="text-2"><h4>Wild Salmon Burger</h4>
+<p><span>$40</span> &nbsp; <sub>$46.30</sub></p>
 <button>Wishlist</button>
-<button>Order Now</button>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<button className='order-btn'>Order Now</button>
+</div>
 </div>
 
                 </div>
