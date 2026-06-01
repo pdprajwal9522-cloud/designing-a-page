@@ -217,8 +217,19 @@ background-color: rgb(237, 234, 234);;
 display: flex;
 gap: 10px;
 padding: 10px;
+padding-bottom: 5px;
+}
+.text-1 span{
+      font-weight:500;
+    font-family: sans-serif;
+}
+.text-1 p{
+color:orangered;
+ font-weight: bold;
+    font-family: sans-serif;
 
 }
+
 .text-2 sub {
 text-decoration: line-through;
 font-size: smaller;
@@ -249,6 +260,7 @@ background-color: rgb(237, 234, 234);
 display: flex;
 gap:10px;
 padding: 10px;
+padding: 5px;
 }
 .top-1{
     background-color: white;

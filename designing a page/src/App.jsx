@@ -185,11 +185,13 @@ function App() {
                 </div>
 
                 <div className="a1"><span><img src={veg}/></span>
-                <div className="text-1"><span>Vegetable Burger</span><p> $25</p>
+                <div className="text-1"><span>Meat Burger</span><p> $25</p>
                 </div>
                 </div>
 
                 <div className="a1"><span><img src={veg}/></span>
+                <div className="text-1"><span>Cheese Burger</span><p> $25</p>
+                </div>
                 
                 </div>
 
